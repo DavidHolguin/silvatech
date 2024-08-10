@@ -10,7 +10,7 @@ import TestimonialsSection from "@components/sections/testimonials/TestimonialsS
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import heroImage from '../images/heroImage.avif';
+import heroImage from '../images/heroImage.png';
 import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import pricing from "@data/pricing.json";
@@ -42,7 +42,7 @@ const avatarSrcs: Array<string> = [
     primaryBtnURL="/solutions"
     secondaryBtn="Solicitar Demo"
     secondaryBtnURL="/contact"
-    withReview={true}
+    withReview={false}
     avatars={avatarSrcs}
     rating=`<span class="font-bold">4.9</span> / 5`
     starCount={5}
